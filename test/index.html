@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class A {
+            #name = 'asdasd';
+            #age = 0;
+            constructor(name, age) {
+            }
+            #getName() {
+                return this.name;
+            }
+            getNamepublic()
+            {
+                return this.#getName();
+            }
+        }
+        const a=new A();
+        console.log(a.getNamepublic());
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

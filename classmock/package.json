@@ -1,0 +1,17 @@
+{
+  "name": "classmock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.0"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
+}
