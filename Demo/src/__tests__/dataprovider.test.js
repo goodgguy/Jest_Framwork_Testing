@@ -1,14 +1,14 @@
 const plusThreeNumbers = require('../plus');
 describe('Plus', () => {
-    it('2+3+4=9', () => {
+    it('should 2+3+4=9', () => {
         const result = plusThreeNumbers(2, 3, 4);
         expect(result).toBe(9);
     })
-    it('4+2+1=7', () => {
+    it('should 4+2+1=7', () => {
         const result = plusThreeNumbers(4, 2, 1);
         expect(result).toBe(7);
     })
-    it('5+5+5=15', () => {
+    it('should 5+5+5=15', () => {
         const result = plusThreeNumbers(5, 5, 5);
         expect(result).toBe(15);
     })
